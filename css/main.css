@@ -67,6 +67,144 @@ nav {
   font-size: 18px;
 }
 
-nav a {
+a {
   text-decoration: none;
+}
+
+.section-programme {
+  background-color: var(--white-color);
+}
+
+h3 {
+  color: #000;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+}
+
+hr {
+  height: 7px;
+  background-color: var(--purple-color);
+}
+
+.card-programme {
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-programme p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.card-programme strong {
+  font-family: "Nunito Sans", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.frame {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.button-programme {
+  width: 234px;
+  height: 55px;
+  background-color: var(--black-color);
+  color: var(--purple-color);
+  font-size: 15px;
+  font-style: italic;
+  font-family: "Nunito Sans", serif;
+  text-transform: uppercase;
+}
+
+.section-quote {
+  background-color: var(--green-color);
+  text-align: center;
+}
+
+.section-quote p {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.section-quote strong {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 28px;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+}
+
+.section-news {
+  background-color: var(--cream-color);
+}
+
+.card-news {
+  font-size: 15px;
+  line-height: 22px;
+  background-color: var(--white-color);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-news strong {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.section-opportunities {
+  background-color: var(--white-color);
+}
+
+.title-opportunities {
+  background-color: var(--purple-color);
+}
+
+h2 {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 50px;
+  letter-spacing: -2.5px;
+  text-transform: uppercase;
+}
+
+.element-opportunities {
+  background-color: var(--green-color);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+
+.element-opportunities-1 {
+  border: 1px solid var(--black-color);
+}
+
+.element-opportunities-2 {
+  border-top: 1px solid var(--black-color);
+  border-right: 1px solid var(--black-color);
+  border-bottom: 1px solid var(--black-color);
+}
+
+.element-opportunities-3 {
+  border-right: 1px solid var(--black-color);
+  border-bottom: 1px solid var(--black-color);
+  border-left: 1px solid var(--black-color);
+}
+
+footer h2 {
+  color: var(--grey-color);
 }
