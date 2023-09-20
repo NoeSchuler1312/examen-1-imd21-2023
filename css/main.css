@@ -45,6 +45,7 @@ h1 {
   font-family: "Nunito Sans", sans-serif;
   text-transform: uppercase;
   font-size: 50px;
+  padding: 20px 20px 0;
 }
 
 h1 em {
@@ -58,6 +59,7 @@ header p {
   text-transform: uppercase;
   font-size: 20px;
   line-height: 24px;
+  padding: 0 20px 20px;
 }
 
 nav {
@@ -71,6 +73,11 @@ a {
   text-decoration: none;
 }
 
+.container-nav {
+  padding: 20px 41px;
+  justify-content: space-between;
+}
+
 .section-programme {
   background-color: var(--white-color);
 }
@@ -81,6 +88,7 @@ h3 {
   font-size: 50px;
   font-weight: 300;
   text-transform: uppercase;
+  padding: 60px 20px 30px;
 }
 
 .container {
@@ -92,6 +100,11 @@ hr {
   background-color: var(--purple-color);
 }
 
+.container-cards {
+  padding: 0 20px;
+  gap: 10px;
+}
+
 .card-programme {
   overflow: hidden;
   text-align: center;
@@ -100,6 +113,7 @@ hr {
 .card-programme p {
   font-size: 15px;
   font-weight: 300;
+  padding-top: 20px;
 }
 
 .card-programme strong {
@@ -112,6 +126,7 @@ hr {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
   border-left: 1px solid #000;
+  height: 168px;
 }
 
 .button-programme {
@@ -123,16 +138,23 @@ hr {
   font-style: italic;
   font-family: "Nunito Sans", serif;
   text-transform: uppercase;
+  width: 234px;
+  height: 55px;
+  text-align: center;
+  padding: 20px 0;
+  margin: 30px 97px 60px;
 }
 
 .section-quote {
   background-color: var(--green-color);
   text-align: center;
+  padding: 0 20px 20px;
 }
 
 .section-quote p {
   font-size: 15px;
   text-transform: uppercase;
+  padding-top: 20px;
 }
 
 .section-quote strong {
@@ -146,6 +168,12 @@ hr {
 
 .section-news {
   background-color: var(--cream-color);
+  padding-bottom: 60px;
+}
+
+.card-news img {
+  height: 259px;
+  transform: scaleX(200%);
 }
 
 .card-news {
@@ -154,6 +182,11 @@ hr {
   background-color: var(--white-color);
   border-radius: 20px;
   overflow: hidden;
+  width: 189px;
+}
+
+.card-news p {
+  margin: 20px;
 }
 
 .card-news strong {
@@ -169,14 +202,23 @@ hr {
 
 .title-opportunities {
   background-color: var(--purple-color);
+  letter-spacing: -2.5px;
 }
 
 h2 {
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
   font-size: 50px;
-  letter-spacing: -2.5px;
   text-transform: uppercase;
+  padding: 20px;
+}
+
+.section-opportunities {
+  padding-bottom: 60px;
+}
+
+.container-opportunities {
+  flex-flow: row wrap;
 }
 
 .element-opportunities {
@@ -187,6 +229,9 @@ h2 {
   letter-spacing: -1px;
   text-transform: uppercase;
   line-height: 24px;
+  height: 112px;
+  width: 50%;
+  padding: 20px 10px;
 }
 
 .element-opportunities-1 {
@@ -224,4 +269,9 @@ h4 {
 footer p {
   text-align: center;
   font-size: 13px;
+}
+
+.container-footer {
+  justify-content: space-around;
+  padding-bottom: 112px;
 }
